@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frawlhalla | Register</title>
+    <link rel="stylesheet" href="../CSS/header-footer.css">
+    <link rel="stylesheet" href="../CSS/play-now.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="../asset/logo.png" class="logo">
+        <div class="drop-down">
+            <input type="checkbox" class="toggler">
+            <img src="../asset/navdropDown.png">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="screenshots.html">Screenshots</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="characters.html">Characters</a></li>
+                <li><a href="play-now.html">PLAY NOW</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="regis-content">
+        <div class="form-container">
+            <h1>REGISTER</h1>
+            <hr> <br>
+            <form action="home.html" method="POST" onsubmit="return validate()">
+                <div class="fill">
+                    <label for="">Nickname</label>
+                    <input type="text" name="" id="nickname" placeholder="HarryPotter">
+                </div>
+                <br>
+                <div class="fill">
+                    <label for="">Gender</label>
+                    <div class="radio">
+                        <div><input type="radio" name="gender" id="Male"> Male</div>
+                        <div><input type="radio" name="gender" id="Female"> Female</div>
+                    </div>
+                </div>
+                <br>
+                <div class="fill">
+                    <label for="">Email</label>
+                    <input type="email" name="" id="email" placeholder="harrypotter@gmail.com">
+                </div>
+                <br>
+                <div class="fill">
+                    <label for="">Password</label>
+                    <input type="password" name="" id="password" placeholder="*********">
+                </div>
+                <br>
+                <input type="checkbox" name="" id="checkbox">
+                <label for="">Agree with terms and conditions</label>
+                <br><br>
+                <input type="submit" value="Register" id="submitBtn">
+            </form>
+        </div> 
+    </div>
+
+    <footer>
+        <div class="footer-wrap">
+            <div class="footer-left">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="screenshots.html">Screenshots</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="characters.html">Characters</a></li>
+                    <li><a href="play-now.html">PLAY NOW</a></li>
+                </ul>
+                <hr>
+                <p>Copyright ©️ 2021 Albert Renaldy, Gabriel Eduardus, Minawati. All Rights Reserved.</p>
+            </div>
+            <div class="vertical-line"></div>
+            <div class="footer-right">
+                <p>For more information:</p>
+                <a href="https://www.instagram.com/"><img src="../asset/Instagram.png" alt="instagram"></a>
+                <a href="https://twitter.com/"><img src="../asset/Twitter.png" alt="twitter"></a>
+                <a href="https://www.facebook.com/"><img src="../asset/Facebook.png" alt="facebook"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../JS/play-now.js"></script>
+</body>
+</html>

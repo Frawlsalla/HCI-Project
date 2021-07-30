@@ -1,0 +1,172 @@
+/* STYLES */
+
+.container {
+	background-color: #0D101A;
+}
+
+/* EVENT PAGE */
+
+.content {
+	margin-bottom: 70px;
+}
+
+.content .e-header-image {
+	background-image: url(../asset/eventHeader.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+	display: flex;
+}
+
+.content .e-header-image h1 {
+	position: relative;
+	padding-left: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	color: white;
+	text-shadow: 3px 3px rgba(0, 0, 0, 0.6);
+	font-size: 40px;
+	font-weight: bolder;
+    font-family: 'Raleway', sans-serif;
+}
+
+.content .e-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+	margin-bottom: 30px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.content .e-content h2 {
+	padding: 5px 30px 5px 30px;
+	border: 2px solid white;
+	font-size: 32px;
+	font-weight: bolder;
+	color: white;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.content .e-content h2:hover {
+	transition: all 0.3s ease-out;
+	background-color: white;
+	color: rgb(13, 16, 26);
+}
+
+.content .e-content ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.content .e-content ul li {
+	padding: 10px;
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+}
+
+.content .e-content ul li img {
+	width: 340px;
+	margin-bottom: 20px;
+	border: 2px solid white;
+}
+
+.content .e-content ul li img:hover {
+	transition: all 0.3s ease-in;
+	transform: rotate(2deg);
+}
+
+
+.content .e-content ul li h3 {
+	font-size: 22px;
+	margin-bottom: 5px;
+}
+
+.content .e-content ul li span {
+	font-size: 12px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.content .e-content ul li p {
+	font-size: 16px;
+}
+
+/* back to top icon */
+.container .back-to-top-page {
+	width: 20px;
+	height: 20px;
+	padding: 20px;
+	background-color: #0D101A;
+	border: 3px solid white;
+	border-radius: 100%;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	box-shadow: 5px 5px 5px -5px rgba(0, 0, 0,1);
+	transition: all 0.3s ease;
+}
+
+.container .back-to-top-page:hover {
+	border: 2px solid white;
+	background-color: rgb(30, 36, 54);
+	bottom: 15px;
+	right: 15px;
+}
+
+.container .back-to-top-page a {
+	text-decoration: none;
+	position: absolute;
+	bottom: 10px;
+	right: 7px;
+	color: white;
+	font-size: 18px;
+	font-weight: bolder;
+	font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 800px){
+	/* Screenshot Page */
+	.overlay img {
+		height: 250px;
+	}
+
+	.content .ss-header-image {
+		height: 350px;
+	}
+
+	.content .filtering {
+		height: 350px;
+	}
+
+	.content .ss-header-image h1 {
+		font-size: 30px;
+	}
+
+	.ss-judul-screenshot h2 {
+		font-size: 28px;
+		width: 400px;
+	}
+
+	/* Event Page */
+	.content .e-header-image {
+		height: 350px;
+	}
+
+	.content .e-header-image h1 {
+		font-size: 30px;
+	}
+
+	.content .e-content h2 {
+		font-size: 26px;
+	}
+}

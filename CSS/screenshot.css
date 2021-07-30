@@ -1,0 +1,126 @@
+/* STYLES */
+
+.container {
+	background-color: #0D101A;
+}
+
+/* SCREENSHOT PAGE CONTENT */
+
+.content {
+	margin-bottom: 50px;
+}
+
+.content .ss-header-image {
+	background-image: url(../asset/Screenshots_Gameplay2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+	display: flex;
+}
+
+.content .filtering {
+	width: 100%;
+	height: 450px;
+	background-color: rgba(0, 0, 0, 0.4);
+	position: absolute;
+}
+
+.content .ss-header-image h1 {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 100px;
+	color: white;
+	text-shadow: 3px 3px rgba(0, 0, 0, 0.6);
+	font-size: 40px;
+	font-weight: bolder;
+	font-family: 'Raleway', sans-serif;
+}
+
+.ss-judul-screenshot h2 {
+	width: 500px;
+	margin: auto;
+	padding-bottom: 10px;
+	padding-top: 50px;
+	color: white;
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+	border-bottom: 3px solid white;
+	font-family: 'Poppins', sans-serif;
+}
+
+.ss-judul-screenshot .ss-in-game-menu, .ss-judul-screenshot .ss-in-game-gameplay {
+	padding-right: 20px;
+	padding-bottom: 50px;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-evenly;
+}
+
+.ss-judul-screenshot .ss-screenshot {
+	width: 450px;
+	height: 250px;
+	margin: 5px;
+	border: 2px solid white;
+	padding: 5px;
+	margin-top: 50px;
+}
+
+.ss-judul-screenshot .ss-screenshot img {
+	width: 100%;
+	height: 100%;
+}
+
+/* OVERLAY */
+.overlay {
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	text-align: center;
+}
+
+.overlay:target {
+	width: 100%;
+	height: 100%;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.overlay img { 
+	height: 500px; 
+}
+
+.overlay .overlay-over {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} 
+
+.overlay:target img { animation: zoomDanFade 1s; }
+
+.overlay .close {
+	position: absolute;
+	top: 15px;
+	left: 1%;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #0D101A;
+	border: 1px solid white;
+	border-radius: 50%;
+	padding: 10px 15px 10px 15px;
+}
+
+.overlay:target .close { animation: zoomDanFade 1s; }
