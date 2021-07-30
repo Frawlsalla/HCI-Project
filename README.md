@@ -14,3 +14,6 @@ Project ini merupakan tugas perkuliahan, dimana kami diminta untuk membuat suatu
 | 2301850670 | Albert Renaldy |
 | 2301866574 | Minawati |
 | 2301851976 | Gabriel Eduardus |
+
+# Link Website
+https://frawlsalla.netlify.app
